@@ -6,4 +6,3 @@ const server = http.createServer((req, res) => {
 server.listen(8080, () => {
   console.log('Backend listening on port 8080');
 });
-echo "throw new Error('CRITICAL INCIDENT: Node service failed during startup!');"
